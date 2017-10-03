@@ -2,7 +2,7 @@
 ------------------
 This script was written as exsercise.
 ------------------
-To block websites like facebook, twitter etc. during working hours -- a python3 script starts with loading your OS.
+To block websites like facebook, twitter etc. during working hours -- a python3 script starts at startup your OS.
 For instance, during working hours from 8.00 am till 16.00, this script will redirect links to local loop (127.0.0.1)
 It is recommended to add both website addresses, including 'www' (facebook.com, www.facebook.com).
 This script works with 'hosts' file. The absolute path should be given -- add r before 'C:\Windows...'. Something like: r"C\Windows\System32\drivers\etc\hosts".
